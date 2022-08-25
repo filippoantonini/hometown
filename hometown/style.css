@@ -1,0 +1,85 @@
+
+body {
+    margin: 0;
+    text-align: center;
+    padding: 0;
+    font-family: 'Fondamento', cursive;
+}
+
+img{
+    width: 100px;;
+}
+
+#hero{
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#title-1 {
+    background: #3D0C11;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px 0 10px 0;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+}
+
+#sub-title {
+    margin: 0;
+    background: #771821;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    text-shadow: 0px 0px 2px black
+}
+
+#activities-cards{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 243px;
+}
+
+.cards {
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#activities {
+    background-color: #FCEEF0;
+}
+
+#title-2 {
+    margin-top: 0;
+    padding: 20px 0 20px 0;
+}
+
+#guide {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    height: 294px;
+    background-color: #E77485;
+    padding: 0 20px;
+    margin: 50px 0;
+    border-radius: 10px;
+    border-bottom: 5px solid #3D0C11;
+}
+
+.profile {
+    height: 248px;
+    width: 180px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+
+#section {
+    display: flex;
+    justify-content: center;
+}
